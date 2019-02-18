@@ -7,11 +7,11 @@ body {
 	//font-family: Exo 2;
 	color: #252525;
 }
+
 /* Menu */
 .menu {
-	background: green;
-	padding: 20px 0;
-
+	//background: green;
+	//padding: 20px 0;
 }
 .menu-container {
 	max-width: 100%;
@@ -43,8 +43,28 @@ a.menu-logo {
 	padding: 10px;
 	text-decoration: none;
 	color: #fff;
-	font-size: 2em;
+	font-size: 1.5625em;
 	font-family: Arial;
 	line-height: normal;
 	font-style: normal;
+}
+
+/*O QUE É*/
+.oque-container{
+	width: 1440px;
+	height: 960px;
+	background-image: url("../img/image3.png");
+	background-repeat: no-repeat;
+	position: fixed;
+}
+
+.titulo{
+	color: #fff;
+	font-size: 80px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: normal;
+	font-family: Exo;
+	text-align: center;
+	margin-top: 306px;
 }
