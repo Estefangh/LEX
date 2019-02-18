@@ -54,11 +54,12 @@ a.menu-logo {
 
 
 .oque-container{
-	width: 1440px;
-	height: 960px;
+	width: 100%;
+	//height: 960px;
 	background-image: url("../img/image3.png");
 	background-repeat: no-repeat;
-	position: fixed;
+	background-size: cover;
+	background-position: center;
 }
 
 .titulo{
@@ -69,5 +70,6 @@ a.menu-logo {
 	line-height: normal;
 	font-family: Exo;
 	text-align: center;
-	margin-top: 306px;
+	padding-top: 306px;
+	padding-bottom: 306px;
 }
