@@ -1,0 +1,50 @@
+
+body, h1, h2, h3, p, ul {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	//font-family: Exo 2;
+	color: #252525;
+}
+/* Menu */
+.menu {
+	background: green;
+	padding: 20px 0;
+
+}
+.menu-container {
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: green;
+}
+.menu-container::after, .menu-container::before {
+	content: '';
+	display: table;
+	clear: both;
+}
+a.menu-logo {
+	display: block;
+	float: left;
+	margin-left: 128px;
+	margin-top: 59px;
+}
+.menu-nav {
+	float: right;
+	margin: 87px 128px 86px 10px;
+	//margin-right: 10px;
+}
+
+.menu-nav li {
+	display: inline-block;
+}
+.menu-nav a {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 2em;
+	font-family: Arial;
+	line-height: normal;
+	font-style: normal;
+}
