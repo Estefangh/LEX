@@ -6,6 +6,7 @@ body, h1, h2, h3, p, ul {
 body {
 	//font-family: Exo 2;
 	color: #252525;
+	overflow: visible;
 }
 
 /* Menu */
@@ -50,6 +51,8 @@ a.menu-logo {
 }
 
 /*O QUE É*/
+
+
 .oque-container{
 	width: 1440px;
 	height: 960px;
